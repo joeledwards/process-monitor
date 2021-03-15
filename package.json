@@ -1,0 +1,31 @@
+{
+  "name": "process-monitor",
+  "version": "1.0.0",
+  "description": "Monitor processes and alert on changes in state",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git:joeledwards/process-monitor"
+  },
+  "keywords": [
+    "process",
+    "monitor",
+    "alert",
+    "notification"
+  ],
+  "author": "Joel Edwards <joeledwards@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@buzuli/app": "^1.2.1",
+    "@buzuli/json": "^2.1.0",
+    "@buzuli/scheduler": "^2.0.0",
+    "axios": "^0.21.1",
+    "log-a-log": "^6.1.0",
+    "moment": "^2.29.1",
+    "ps-list": "^7.2.0",
+    "yargs": "^16.2.0"
+  }
+}
