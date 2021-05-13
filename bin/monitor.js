@@ -20,11 +20,15 @@ app({
       .option('check-interval', {
         type: 'number',
         desc: 'check process status on this interval (second)',
-        default: 60000
+        default: 60000,
       })
       .option('slack-webhook', {
         type: 'string',
-        desc: 'slack webhook where notifications should be sent'
+        desc: 'slack webhook where notifications should be sent',
+      })
+      .option('verbose', {
+        type: 'boolean',
+        desc: 'log more detailed info',
       })
       .parse()
 
